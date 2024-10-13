@@ -12,7 +12,7 @@ app.use('/api',AllRoutes);
 
 
 
-connect("mongodb+srv://venomfire_2525:sameer123@cluster0.neida3j.mongodb.net/ecom-store"
+connect(mongoURI
 ).then(
 app.listen(5000,()=>{
     console.log("app is running on port 5000")
